@@ -3,6 +3,7 @@ import { useEffect, useState } from "react"
 import { baseUrl } from "../constants/movie"
 import { Movie } from "../typings"
 import {FaPlay} from 'react-icons/fa'
+import { GrCircleInformation } from "react-icons/gr";
 
 interface Props {
   netflixOriginals : Movie[]
@@ -43,7 +44,7 @@ return(
         </button>
       <button className="bannerButton bg-[gray]/70">
         More Info 
-        {/* <InformationCircleIcon className='h-5 w-5 md:h-8 md:w-8' */}
+        <GrCircleInformation className='h-5 w-5 md:h-8 md:w-8 text-white'/>
         </button>
     </div>
   </div>
