@@ -10,6 +10,7 @@ link do projeto : https://netflix-clone-mu-topaz.vercel.app
 Um pequeno Preview do layout
 </p>
 
+![image](https://user-images.githubusercontent.com/103132957/204319212-6973a26d-7bfe-4c3b-99ad-9d04801982fc.png)
 
 
 ## O que eu aprendi? (em topicos)
