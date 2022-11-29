@@ -66,7 +66,7 @@ export default function Home({netflixOriginals,
   topRated,
   trendingNow,
   } : Props) {
-  console.log(netflixOriginals)
+  
 
     const ShowModal = useRecoilValue(modalState);
 
