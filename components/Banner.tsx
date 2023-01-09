@@ -5,14 +5,14 @@ import { Movie } from "../typings"
 import { FaPlay } from 'react-icons/fa'
 import { GrCircleInformation } from "react-icons/gr";
 import { modalState, movieState } from "../atoms/modalAtom"
-import { useRecoilState} from 'recoil'
+import { useRecoilState } from 'recoil'
 
 interface Props {
   netflixOriginals: Movie[]
 }
 
 const Banner = ({ netflixOriginals }: Props) => {
-  
+
   const [showModal, setShowModal] = useRecoilState(modalState)
   const [movie, setMovie] = useState<Movie | null>(null);
   const [currentMovie, setCurrentMovie] = useRecoilState(movieState)
@@ -28,7 +28,7 @@ const Banner = ({ netflixOriginals }: Props) => {
         <Image
           src={`${baseUrl}${movie?.backdrop_path || movie?.poster_path}`}
           alt='banner de um filme da netflix'
-          layout="fill"
+          fill
           objectFit="cover"
         />
       </div>
